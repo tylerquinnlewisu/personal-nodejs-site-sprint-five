@@ -1,0 +1,74 @@
+/**CSS for the team portfollio site**/
+
+/**CSS for header**/
+header {
+    padding: 3%;
+    background-color: rgb(59, 9, 9);
+   
+}
+.title {
+    position: relative;
+    text-align: center;
+    top: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+.logo {
+    position: absolute;
+    top: 2%;
+    left: 80%;
+}
+
+/**CSS for image section**/
+
+/**Header for the pictures**/
+.team {
+    text-align: center;
+    font-size: 50px;
+}
+
+/**Jack Picture**/
+.imgJack {
+    position: relative;
+    left: 280px;
+}
+.imgTyler {
+    position: relative;
+    left: 270px;
+}
+.imgMike {
+    position: relative;
+    left: 276px;
+}
+.imgSimeon {
+    position: relative;
+    left: 270px;
+}
+
+/**Roster**/
+.RostHeader {
+    position: absolute;
+    top: 275px;
+    left: 100px;
+}
+
+.RostList, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: -240px;
+    margin-left: 55px;
+}
+
+map {
+    background-color: black;
+    
+}
+
+/**Assignment portfollio**/
+.TAP { /**Header**/
+    position: relative;
+    text-align: center;
+    top: 150px;
+    font-size: 35px;
+}

@@ -11,6 +11,43 @@ const minorVersion = 2
 // Use Express to publish static HTML, CSS, and JavaScript files that run in the browser. 
 app.use(express.static(__dirname + '/static'))
 
+
+
+//Getting to Know Each Other (as a Scrum Team) on the server
+app.get('/teamsknoweachother', (request, response) => {
+	app.use(express.static(__dirname + '/teamsknoweachother'))
+    response.sendFile(path.join(__dirname + '/teamsknoweachother/index.html'))
+})
+
+//Diceroller on the server
+app.get('/diceroller', (request, response) => {
+	app.use(express.static(__dirname + '/diceroller'))
+    response.sendFile(path.join(__dirname + '/diceroller/index.html'))
+})
+
+//Class portfolio on the server
+app.get('/portfolio', (request, response) => {
+	app.use(express.static(__dirname + '/portfolio'))
+    response.sendFile(path.join(__dirname + '/portfolio/index.html'))
+})
+
+//Class resume on the server
+app.get('/resume', (request, response) => {
+	app.use(express.static(__dirname + '/resume'))
+    response.sendFile(path.join(__dirname + '/resume/index.html'))
+})
+
+//Getting to Know Each Other (individual) on the server
+app.get('/gettingtoknow', (request, response) => {
+	app.use(express.static(__dirname + '/gettingtoknow'))
+    response.sendFile(path.join(__dirname + '/gettingtoknow/index.html'))
+})
+
+
+/*
+
+Miscellaneous code brought in from Eric Pogue's GitHub template vvvv
+
 // The app.get functions below are being processed in Node.js running on the server.
 // Implement a custom About page.
 app.get('/about', (request, response) => {
@@ -119,6 +156,8 @@ app.get('/batman', (request, response) => {
 	response.type('application/json')
 	response.send(JSON.stringify(spiderMan, null, 4))
 })
+
+*/
 
 // Custom 404 page.
 app.use((request, response) => {

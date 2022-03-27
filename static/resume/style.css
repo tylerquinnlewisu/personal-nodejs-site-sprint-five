@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+#name { 
+ 
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#summaryoftechnicalexperience { 
+    
+    text-align: left;
+    font-size: 21px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#lineone { 
+    border-bottom-style: solid;
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+    
+}
+
+#linetwo { 
+    border-top-style: solid;
+    margin-top: 44px;
+}
+
+
+#linethree { 
+    border-top-style: solid;
+}
+
+
+#linefour { 
+    border-top-style: solid;
+    
+}
+
+
+#email {
+    display: block;
+    position: absolute;
+    left: auto;
+    width:90px;
+    height: 90px;
+}
+
+#linkedin {
+    display: block;
+    position: absolute;
+    left: 270px;
+    width:90px;
+    height: 90px;
+}
+
+#github {
+    display: block;
+    position: absolute;
+    right: 270px;
+    width:90px;
+    height: 90px;
+}
+
+#phone {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width:100px;
+    height: 90px;
+}
+
+#languageheading {
+    margin-top: 50px;
+
+}
+
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+
+}
+h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+ul {
+    margin-left: 36px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+
+}
+
+

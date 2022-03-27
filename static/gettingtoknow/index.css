@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 224px;
+    height: auto;
+    position: absolute; 
+    bottom: 85%;
+    left: 88%;
+    transition: 1s;
+    cursor: zoom-in;
+}
+
+#discord {
+    max-width: 224px;
+    height: auto;
+    position: absolute; 
+    bottom: 79%;
+    left: 88%;
+    transition: 1s;
+    cursor: zoom-in;
+    color: white;
+}
+
+#img-div img {
+    max-height: 60vh;
+    max-width: 20vw;
+    height: auto;
+    position: absolute; 
+    bottom:32%;
+    left: 14%;
+    transition: 1s;
+    cursor: zoom-in;
+}
+
+#img-div img:hover {
+    max-width: 21vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-size: 150%;
+}
+
+img:hover {
+    max-width: 228px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-size: 150%;
+}
+
+#name {
+    font-family: 'Muli';
+    position: absolute;
+    transition: 1s;
+    font-size: 90px;
+    cursor: pointer; 
+    color: whitesmoke;
+    bottom: 45vh;
+}
+
+#name:hover {
+    font-family: 'Muli';
+    position: absolute;
+    font-size: 98px;
+    color: whitesmoke;
+}
+
+.hobbyist {
+    font-family: 'Muli',sans-serif;
+    font-size: 48px;;
+    position: absolute;
+    color: whitesmoke;
+    top: 85%;
+}
+
+h2 {
+    font-family: 'Roboto',sans-serif;
+    position: absolute;
+    color: whitesmoke;
+    top: 12%;
+    z-index: 2;
+}
+.banner {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 110%;
+    height: 110%;
+  }
+
+body { 
+    background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1464639351491-a172c2aa2911?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
+}
+
+.exterior {
+    font-family: 'Muli',sans-serif; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    overflow: hidden; 
+    margin: 0;
+    
+}
+
+.container {
+    display: flex; 
+    width: 60vw;
+}
+
+.panel {
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 69vh; 
+    border-radius: 50px; 
+    color: seashell; 
+    cursor: pointer;
+    flex:0.5;
+    position: relative; 
+    transition: flex .7s ease-in; 
+}
+
+.panel h3 {
+    font-size: 36px;
+    position: absolute; 
+    bottom: 20px;
+    right: 20px; 
+    margin: 0; 
+    opacity: 0; 
+    
+}
+
+.panel.active {
+    flex: 5;
+}
+
+.panel.active h3 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+    
+}
+
+@media(max-width: 480px) {
+    .container {
+        width: 100vw; 
+    }
+    .panel:nth-of-type(4),.panel:nth-of-type(5) {
+        display: none; 
+    }
+}
+
+.hey {
+    font-family: 'Roboto',sans-serif;
+    font-size: 24px;;
+    position: absolute;
+    color: whitesmoke;
+    top: 175%;
+}
+
+
